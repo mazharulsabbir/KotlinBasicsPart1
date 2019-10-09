@@ -16,7 +16,7 @@ import kotlin.collections.ArrayList
 fun main() {
 
 //    calculation()
-//    listOfData()
+    listOfData()
 
 }
 
@@ -53,11 +53,11 @@ private fun listOfData() {
         val name = listOfString[i].name
         val age = listOfString[i].age
         val gender = listOfString[i].gender
-        println("User $i\n\n")
+        println("User $i ->")
 
         println("Name: $name \t\t")
         println("Age: $age \t\t")
-        println("Gender: $gender ")
+        println("Gender: $gender \n\n")
 
     }
 }
