@@ -13,22 +13,40 @@ fun main() {
     Float 	32 bit 	1.40129846432481707e-45 to 3.40282346638528860e+38
     Double 	64 bit 	4.94065645841246544e-324 to 1.79769313486231570e+308*/
 
-    val scanner = Scanner(System.`in`)
-    val number1: Int = scanner.nextInt()
-    val number2: Int = scanner.nextInt()
+//    val scanner = Scanner(System.`in`)
+//    val number1: Int = scanner.nextInt()
+//    val number2: Int = scanner.nextInt()
+//
+//    println(
+//        "Sum of the given numbers: " +
+//                AddTwoNumber().addTwoNumber(
+//                    number1, number2
+//                ).toString()
+//    )
+//
+//    println(
+//        "Sub of the given numbers: " +
+//                SubTwoNumber().subTwoNumber(
+//                    number1, number2
+//                ).toString()
+//    )
 
-    println(
-        "Sum of the given numbers: " +
-                AddTwoNumber().addTwoNumber(
-                    number1, number2
-                ).toString()
-    )
+    listOfDate()
 
-    println(
-        "Sub of the given numbers: " +
-                SubTwoNumber().subTwoNumber(
-                    number1, number2
-                ).toString()
-    )
+}
 
+fun listOfDate(){
+    val listOfString: MutableList<String> = ArrayList()
+    listOfString.add("Something1")
+    listOfString.add("Something2")
+    listOfString.add("Something3")
+    listOfString.add("Something4")
+    listOfString.add("Something5")
+    listOfString.add("Something6")
+    listOfString.add("Something7")
+    listOfString.add("Something8")
+
+
+    for(element in listOfString)
+        println(element)
 }
