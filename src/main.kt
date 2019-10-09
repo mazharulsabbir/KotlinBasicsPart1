@@ -31,11 +31,11 @@ fun main() {
 //                ).toString()
 //    )
 
-    listOfDate()
+    listOfData()
 
 }
 
-fun listOfDate(){
+fun listOfData(){
     val listOfString: MutableList<String> = ArrayList()
     listOfString.add("Something1")
     listOfString.add("Something2")
