@@ -1,6 +1,6 @@
-package model
+package com.mazharulsabbir.kotlinbasics.model
 
-class Address(
+data class Address(
     var location: String,
     var area: String,
     var policeStation: String,

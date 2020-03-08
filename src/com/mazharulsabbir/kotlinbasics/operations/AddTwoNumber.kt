@@ -1,10 +1,8 @@
-package operations
+package com.mazharulsabbir.kotlinbasics.operations
 
 class AddTwoNumber {
     fun addTwoNumber(
         number1/*parameter*/: Int/*parameter type*/,
         number2/*parameter*/: Int/*parameter type*/
-    ): Int/*return type*/ {
-        return number1 + number2
-    }
+    ) = number1 + number2
 }
